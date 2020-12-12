@@ -57,12 +57,55 @@ if question3 == "b":
 
 print(""" """)
 
+print("""When the Bible was written?
+a - between I and X centuries AD
+b - between XII and II century BC
+c - between VI centyru BC and III century AD
+""")
+question4 = input()
+if question4 == "a":
+  print("It's wrong answer, try again")
+elif question4 == "b":
+  print("Correct!!!")
+elif question4 == "c":
+  print("Nope, try another chance")
+else:
+  print("You choosed not offered version")  
+if question4 == "b":
+  score = (score + 1)
+
+print(""" """)
+
+print("""What sea is the largest in the world?
+a - Mediterranean Sea
+b - Caribbean Sea
+c - Bering Sea
+""")
+question5 = input()
+if question5 == "a":
+  print("It's a true answer!")
+elif question5 == "b":
+  print("You are wrong")
+elif question5 == "c":
+  print("It's wrong answer, try again")
+else:
+  print("You choosed not offered version")  
+if question5 == "a":
+  score = (score + 1)
+
+print(""" """)
+
 print("Your score is",score)
-if score == 3:
+if score == 5:
   print("It's incredible, you know everything!")
 elif score == 1:
   print("Good result!!!")
 elif score == 2:
-  print("Good result!!!")  
+  print("Good result!!!")
+elif score == 3:
+  print("Good result!!!") 
+elif score == 4:
+  print("Good result!!!")       
 else:
   print("Try again, you can give correct answers!")
+  
